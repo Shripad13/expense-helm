@@ -2,10 +2,13 @@ appName: frontend
 port: 80
 
 service:
-  type: LoadBalancer
+  type: ClusterIP
   port: 80
 
 replicas: 1
 
-schemaLoader:
-  enabled: false
+env:
+  bu: expense
+
+schemaLoaderEnabled: false
+ingressEnabled: true  

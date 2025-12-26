@@ -15,5 +15,6 @@ env:
   login_password: "ExpenseApp@1"
   schema_file: "/app/schema/backend.sql"
   bu: expense
+
 schemaLoaderEnabled: true
-  
+ingressEnabled: false  
